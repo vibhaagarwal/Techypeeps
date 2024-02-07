@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+
+
+/** Gothampro fonts start here **/
+
+@font-face {
+    font-family: 'gothampro';
+    src: url('../../../Fonts/gothampro.woff2') format('woff2'),
+         url('../../../Fonts/gothampro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+} 
+
+@font-face {
+    font-family: 'gothampro-light';
+    src: url('../../../Fonts/gothampro_light.woff2') format('woff2'),
+         url('../../../Fonts/gothampro_light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gothampro-black';
+    src: url('../../../Fonts/gothampro_black.woff2') format('woff2'),
+         url('../../../Fonts/gothampro_black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gothampro-bold';
+    src: url('../../../Fonts/gothampro_bold.woff2') format('woff2'),
+         url('../../../Fonts/gothampro_bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/** myriad fonts end here **/

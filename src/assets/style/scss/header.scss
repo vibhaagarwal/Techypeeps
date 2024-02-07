@@ -1,0 +1,22 @@
+@import './vars';
+
+#nav-bar{
+    background-color: $bg-primary;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    .navbar-toggler{
+        background-color: $white;
+        outline:0;
+        box-shadow:none;
+    }
+    .navbar-collapse{
+        flex-grow: 0;
+        .navbar-nav{
+            a.nav-link{
+                color: $text-white;
+                margin: 0rem 2rem;
+            }
+        }
+    }
+}

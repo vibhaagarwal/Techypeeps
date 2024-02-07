@@ -1,0 +1,95 @@
+@import './vars';
+
+.services-container{
+    background-color: $bg-light-blue;
+    @media screen and (max-width: $screen-xs){
+            text-align: center;
+    }
+    .service-text{
+        padding-top:4rem;
+        text-align: center;
+        @media screen and (max-width: $screen-xs-max){
+            margin-bottom:2rem;
+        }
+        h1{
+            font-size:48px;
+            color:$primary;
+            @media screen and (max-width: $screen-xs-max){
+                font-size:calc($big + 5px) !important;
+            }
+        }
+        h2{
+            font-size:calc($big + 16px);
+            color:$text-white;
+            @media screen and (max-width: $screen-xs-max){
+                font-size:$big !important;
+            }
+        }
+    }
+    .service-image{
+        img{
+            padding: 0;
+            @media screen and (max-width: $screen-xs){
+                display: none;
+            }
+        }
+    }
+    .services-tabs{
+        justify-content: space-between;
+        border-bottom: 3px solid $white;
+        @media screen and (max-width:$screen-xs){
+            justify-content: space-around;
+            border:none;
+        }
+        .nav-item{
+            a.nav-link{
+                background-color: transparent;
+                color: $black;
+                font-weight: 600;
+                width:16rem;
+                text-align: center;
+                &.active{
+                    border-bottom: 3px solid $primary;
+                    border-radius: 0;
+                    margin-bottom: -3px;
+                }
+            }
+        }
+       
+    }
+    .services-tab-details{  
+        background-color: $bg-pista-green;
+        margin: 2rem 6rem 4rem;
+        padding: 2rem 2rem 0;
+        border-radius: 10px;
+        position: relative;
+        min-height: 420px;
+        @media screen and (max-width: $screen-xs-max){
+            margin: 2rem;
+        }
+        h2{
+            font-size: $xx-big;
+            color: $primary;
+            @media screen and (max-width: $screen-xs-max){
+                font-size:$medium !important;
+                text-align: center;
+            }
+        }
+        img{
+            position: absolute;
+            top: -2.5rem;
+            width: 35%;
+            right: 0rem;
+            @media screen and (max-width: $screen-xs-max){
+                top: inherit;
+                bottom: -1rem;
+                width: 37%;
+                right: 11rem;
+            }
+            @media screen and (max-width:$screen-xs){
+                width: 75%;
+                right: 1rem;
+            }
+        }
+    }
+}

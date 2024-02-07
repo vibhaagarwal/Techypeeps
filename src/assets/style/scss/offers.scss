@@ -1,0 +1,49 @@
+@import './vars';
+
+.offers-container{
+    background-color:$medium-blue;
+    padding: 4rem 15px;
+    @media screen and (max-width: $screen-xs-max){
+       padding:0;
+    }
+    @media screen and (max-width: $screen-xs){
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    .offers-text{
+        padding-top: 4rem;
+        h2{
+            color:$text-light-blue;
+            @media screen and (max-width: $screen-xs-max){
+                font-size: $big !important;
+            }
+            @media screen and (max-width:$screen-xs){
+                font-size: $medium !important;
+            }
+        }
+        h1{
+            color:$primary;
+            @media screen and (max-width: $screen-xs-max){
+                font-size: $big !important;
+            }
+            @media screen and (max-width:$screen-xs){
+                font-size: calc($big - 5px) !important;
+            }
+        }
+    }
+    .offers-image{
+        @media screen and (max-width: $screen-xs-max){
+            // padding: 1rem 0;
+            text-align: right;
+        }
+        img{
+            padding: 0;
+            @media screen and (max-width: $screen-xs-max){
+                width:50%;
+            }
+            @media screen and (max-width: $screen-xs){
+               display: none;
+            }
+        }
+    }
+}

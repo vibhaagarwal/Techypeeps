@@ -1,0 +1,82 @@
+@import './vars';
+
+.banner-container{
+    background-color:$bg-primary;
+    padding-bottom: 1rem;
+    .banner-text{
+        padding-top: 4rem;
+        @media screen and (max-width: $screen-xs-max){
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+        h2{
+            color: $text-white;
+            margin-bottom: 0;
+            line-height: 1;
+            @media screen and (max-width:$content-width-lg){
+                font-size:calc($big + 20px) !important;
+            }
+            @media screen and (max-width: $screen-xs-max){
+                font-size:calc($big + 10px) !important;
+            }
+            @media screen and (max-width:$screen-xs){
+                font-size:$medium !important;
+            }
+            span{
+                &:first-child{
+                    font-size:$big;
+                    @media screen and (max-width:$content-width-lg){
+                        font-size:$medium !important;
+                    }
+                    @media screen and (max-width:$screen-xs){
+                        font-size:$small !important;
+                    }
+                }
+            }
+        }
+        h1{
+            color: $secondry;
+            line-height: 1;
+            margin-bottom:0;
+            @media screen and (max-width:$content-width-lg){
+                font-size:$x-big !important;
+            }
+            @media screen and (max-width: $screen-xs-max){
+                font-size:calc($x-big - 10px) !important;
+            }
+            @media screen and (max-width:$screen-xs){
+                font-size:calc($big + 5px) !important;
+            }
+            span{
+                color:$text-white;
+                font-size: $big;
+                @media screen and (max-width:$content-width-lg){
+                    font-size:$medium !important;
+                }
+                @media screen and (max-width:$screen-xs){
+                    font-size:$small !important;
+                }
+                &:nth-child(3){
+                    color: $text-green;
+                    font-size: $big;
+                    @media screen and (max-width:$content-width-lg){
+                        font-size:$medium !important;
+                    }
+                    @media screen and (max-width:$screen-xs){
+                        font-size:$small !important;
+                    }
+                }
+            }
+        }
+    }
+    .banner-image{
+        img{
+            // width: 75%;
+            // float: right;
+            padding: 0;
+            @media screen and (max-width: $screen-xs-max){
+              display: none;
+            }
+        }
+    }
+}

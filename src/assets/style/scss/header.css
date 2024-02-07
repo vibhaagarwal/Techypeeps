@@ -1,0 +1,13 @@
+#nav-bar {
+  background-color: #04335E;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+#nav-bar .navbar-collapse {
+  flex-grow: 0;
+}
+#nav-bar .navbar-collapse .navbar-nav a.nav-link {
+  color: #fff;
+  margin: 0rem 2rem;
+}/*# sourceMappingURL=header.css.map */

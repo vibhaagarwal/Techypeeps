@@ -1,0 +1,35 @@
+.banner-container {
+  background-color: #04335E;
+  padding-bottom: 1rem;
+}
+.banner-container .banner-text {
+  padding-top: 4rem;
+}
+.banner-container .banner-text h2 {
+  color: #fff;
+  font-size: 46px;
+  margin-bottom: 0;
+  line-height: 1;
+}
+.banner-container .banner-text h2 span:first-child {
+  font-size: 20px;
+}
+.banner-container .banner-text h1 {
+  color: #00D5FF;
+  font-size: 50px;
+  line-height: 1;
+  margin-bottom: 0;
+}
+.banner-container .banner-text h1 span {
+  color: #fff;
+  font-size: 30px;
+}
+.banner-container .banner-text h1 span:nth-child(3) {
+  color: #36FE4A;
+  font-size: 40px;
+}
+.banner-container .banner-image img {
+  width: 75%;
+  float: right;
+  padding: 0;
+}/*# sourceMappingURL=banner.css.map */

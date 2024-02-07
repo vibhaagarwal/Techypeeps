@@ -1,0 +1,34 @@
+.services-container {
+  background-color: #29ADB2;
+}
+.services-container .service-text {
+  padding-top: 4rem;
+  text-align: center;
+}
+.services-container .service-text h1 {
+  font-size: 48px;
+  color: #04335E;
+}
+.services-container .service-text h2 {
+  font-size: 48px;
+  color: #fff;
+}
+.services-container .service-image img {
+  width: 75%;
+  float: left;
+  padding: 0;
+}
+.services-container .services-tabs {
+  justify-content: space-between;
+  border-bottom: 3px solid #fff;
+}
+.services-container .services-tabs .nav-item a.nav-link {
+  background-color: transparent;
+  color: #000;
+  font-weight: 600;
+}
+.services-container .services-tabs .nav-item a.nav-link.active {
+  border-bottom: 3px solid #04335E;
+  border-radius: 0;
+  margin-bottom: -3px;
+}/*# sourceMappingURL=services.css.map */

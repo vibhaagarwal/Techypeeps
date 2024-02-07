@@ -1,0 +1,14 @@
+.offers-container {
+  background-color: #008BC4;
+}
+.offers-container .offers-text {
+  padding-top: 4rem;
+}
+.offers-container .offers-text h2 {
+  font-size: 40px;
+  color: #9ADDFF;
+}
+.offers-container .offers-text h1 {
+  font-size: 40px;
+  color: #04335E;
+}/*# sourceMappingURL=offers.css.map */
